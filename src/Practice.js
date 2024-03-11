@@ -3,7 +3,7 @@ import React, { useState } from "react";
 
 function Practice(){
 
-    let [msg1, msg2] = useState(1);
+    let [msg1, msg2] = useState(2);
 
     let clickEvent = () => {
 
@@ -23,11 +23,11 @@ function Practice(){
 
         <div onClickCapture={clickCapture}>
 
-            {conditionalRending ? <h4>Click Button.</h4> : '' }
+            {conditionalRending ? <h4>Doble Click Button.</h4> : '' }
 
             <div>{msg1}</div>
 
-            <button onClick={clickEvent}>Click Event</button>
+            <button onDoubleClickCapture={clickEvent}>Doble Click Event</button>
 
         </div>
 

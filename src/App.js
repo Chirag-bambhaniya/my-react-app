@@ -2,8 +2,8 @@
 import './App.css';
 // import NavBar from './layout/NavBar';
 // import Footer from './layout/Footer';
-// import Sidebar  from './layout/Sidebar';
-// import Practice from './Practice';
+import Sidebar  from './layout/Sidebar';
+import Practice from './Practice';
 import Practice1 from './Practice1';
 
 function App() {
@@ -11,13 +11,13 @@ function App() {
   
   <>
   
-    {/* <NavBar/>
+    {/* <NavBar/> */}
   
-    <Sidebar menu={['i Phone 11' , 'i Phone 12', 'i Phone 13']}/>
+    <Sidebar />
 
-    <Footer companyName={'Google'}/> */}
+    {/* <Footer companyName='Google'/> */}
 
-    {/* <Practice/> */}
+    <Practice/>
 
     <Practice1/>
 

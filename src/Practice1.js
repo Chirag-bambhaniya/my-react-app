@@ -2,18 +2,20 @@ import React, {useState} from "react";
 
 function Practice1(){
 
-    let [color1, color2] = useState('Red');
+    
 
     let onmouseover = () => {
 
-        color2(color1 + ' '  + 'Blue')
+        document.getElementById('hover').style.color = 'blue';
+        
+    }
+
+    let mouseleave = () => {
+
+        document.getElementById('hover').style.color = 'black' ;
 
     }
 
-    let overCapture = () =>{
-
-
-    }
 
     console.log('component rendered');
 
@@ -21,13 +23,11 @@ function Practice1(){
 
     return(
 
-        <div onoverCapture={overCapture}>
+        <div onMouseOverCapture={onmouseover}
+            onMouseLeave={mouseleave}>
 
-            {conditionalRending ? <h4>Over Botton</h4> : '' }
-
-            <div>{color1}</div>
-
-            <button onMouseOverCapture={onmouseover}>Over Me</button>
+            {conditionalRending ? <h1 id="hover">Hover Botton</h1> : '' }
+  
 
         </div>
 

@@ -5,7 +5,7 @@ let Sidebar = (props) => {
     console.log(props);
     return(
         
-        <h1>This Is Sidebar, {props.menu[0]}</h1>
+        <h1>This Is Sidebar, {props.menu.name} {props.menu.price}</h1>
     
     );
 
@@ -13,13 +13,13 @@ let Sidebar = (props) => {
 
 export default Sidebar;
 
-export let FirstMenu = 'Dashboard';
+export let FirstMenu ={name :'i Phone 15' , price : 1500000};
 
 let SecondMenu = 'Users';
 export {SecondMenu};
 
 Sidebar.prototype = {
-    menu: PrposTypes.array.isRequired
+    menu: PrposTypes.object.isRequired
 }
 
 Sidebar.defaultProps = {
