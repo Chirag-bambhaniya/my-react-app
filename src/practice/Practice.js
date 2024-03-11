@@ -8,6 +8,7 @@ function Practice(){
     let clickEvent = () => {
 
         msg2(msg1 + 2);
+        console.log(msg1);
 
     }
 
@@ -26,7 +27,7 @@ function Practice(){
             {conditionalRending ? <h4>Doble Click Button.</h4> : '' }
 
             <div>{msg1}</div>
-
+        
             <button onDoubleClickCapture={clickEvent}>Doble Click Event</button>
 
         </div>

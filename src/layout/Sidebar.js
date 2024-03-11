@@ -1,5 +1,5 @@
 import React from "react";
-import PrposTypes from 'prop-types' ;
+import PropTypes from 'prop-types' ;
 
 let Sidebar = (props) => {
     console.log(props);
@@ -13,15 +13,6 @@ let Sidebar = (props) => {
 
 export default Sidebar;
 
-export let FirstMenu ={name :'i Phone 15' , price : 1500000};
-
-let SecondMenu = 'Users';
-export {SecondMenu};
-
-Sidebar.prototype = {
-    menu: PrposTypes.object.isRequired
-}
-
-Sidebar.defaultProps = {
-    menu: [FirstMenu]
+Sidebar.propTypes = {
+    menu: PropTypes.array
 }

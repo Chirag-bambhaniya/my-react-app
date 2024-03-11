@@ -2,17 +2,17 @@ import React, {useState} from "react";
 
 function Practice1(){
 
-    
+    let [color1 , color2]= useState();
 
     let onmouseover = () => {
 
-        document.getElementById('hover').style.color = 'blue';
+        color2(document.getElementById('hover').style.color = 'blue');
         
     }
 
     let mouseleave = () => {
 
-        document.getElementById('hover').style.color = 'black' ;
+        color1 = document.getElementById('hover').style.color = 'black';
 
     }
 
