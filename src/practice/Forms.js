@@ -21,13 +21,13 @@ export default function Forms() {
 
                 <select value={dropdown} onChange={(e) => setDropdown(e.target.value)}>
 
-                    <option value="">Select Standard</option>
-                    <option value="1">1</option>
-                    <option value="2">2</option>
+                    <option value="">Select Gender</option>
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
 
                 </select>
 
-                <input type="submit" value="Submite" />
+                <input type="submit" value="Submit" />
 
             </form>
 
