@@ -3,7 +3,9 @@
 // import ClassComponent from "./lifecycle/ClassComponent";
 // import FunctionHookComponent from "./hook/FuctionHookComponent";
 // import UseRefComponent from "./hook/UseRefComponent";
-import Form from "./lifecycle/Form";
+// import Form from "./lifecycle/Form";
+// import ListKeyComponent from "./ListKeyComponent";
+import Forms from "./Forms";
 
 function Practice(){
 
@@ -44,7 +46,11 @@ function Practice(){
 
             {/* <UseRefComponent/> */}
 
-            <Form/>
+            {/* <Form/> */}
+
+            {/* <ListKeyComponent/> */}
+
+            <Forms/>
 
         </>
 
