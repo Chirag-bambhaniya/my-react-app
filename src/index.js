@@ -3,8 +3,8 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-// import FunctionComponent from './Function';
-// import ClassComponent from './Class';
+// import FunctionComponent from './practice/Function';
+// import ClassComponent from './practice/Class';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

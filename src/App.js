@@ -1,26 +1,26 @@
 // import logo from './logo.svg';
 import './App.css';
-import NavBar from './layout/NavBar';
-import Footer from './layout/Footer';
-import Sidebar  from './layout/Sidebar';
+// import NavBar from './layout/NavBar';
+// import Footer from './layout/Footer';
+// import Sidebar  from './layout/Sidebar';
 import Practice from './practice/Practice';
-import Practice1 from './practice/Practice1';
+// import Practice1 from './practice/Practice1';
 
 function App() {
   return (
   
   <>
   
-    <NavBar CompanyCode = {20} />
+    {/* <NavBar CompanyCode = {20} />
   
     <Sidebar menu = {[20, 30, 40]} />
-    {/* <Sidebar menu = {{name: "User"}} /> */}
+    <Sidebar menu = {{name: "User"}} />
 
-    <Footer companyName='Google'/>
+    <Footer companyName='Google'/> */}
 
     <Practice/>
 
-    <Practice1/>
+    {/* <Practice1/>  */}
 
   </>
 
