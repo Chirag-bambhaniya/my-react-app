@@ -1,7 +1,7 @@
 // import React from "react";
 // import React, { useState } from "react";
 // import ClassComponent from "./lifecycle/ClassComponent";
-// import FunctionHookComponent from "./hook/FuctionHookComponent";
+// import FunctionHookComponent from "./hook/FunctionHookComponent";
 // import UseRefComponent from "./hook/UseRefComponent";
 // import Form from "./lifecycle/Form";
 // import ListKeyComponent from "./ListKeyComponent";
@@ -30,11 +30,11 @@ function Practice(){
 
         // <div onClickCapture={clickCapture}>
 
-        //     {conditionalRending ? <h4>Doble Click Button.</h4> : '' }
+        //     {conditionalRending ? <h4>Double Click Button.</h4> : '' }
 
         //     <div>{msg1}</div>
         
-        //     <button onDoubleClickCapture={clickEvent}>Doble Click Event</button>
+        //     <button onDoubleClickCapture={clickEvent}>Double Click Event</button>
 
         // </div>
 
