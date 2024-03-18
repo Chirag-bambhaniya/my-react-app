@@ -5,6 +5,7 @@ import './App.css';
 // import Sidebar  from './layout/Sidebar';
 import Practice from './practice/Practice';
 // import Practice1 from './practice/Practice1';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (

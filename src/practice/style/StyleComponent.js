@@ -8,11 +8,11 @@ export default function StyleComponent() {
 
         <div>
 
-            <h1 style={{color : "white" , backgroundColor : "black"}}> Hello Word! </h1>
+            <h1 style={{color : "white" , backgroundColor : "black"}} className='text-danger bg-primary'> Hello Word! </h1>
 
-            <h2 className="example" > Hello Word! </h2>
+            <h2 className="example text-primary bg-warning" > Hello Word! </h2>
 
-            <h2 className={Style.example}> Hello Word! </h2>
+            <h2 className={Style.example + ' text-light bg-danger' }> Hello Word! </h2>
 
         </div>
 
