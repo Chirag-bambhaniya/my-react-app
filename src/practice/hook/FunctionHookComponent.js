@@ -11,7 +11,7 @@ function FunctionHookComponent(){
 
     useEffect(() => {
 
-        console.log('Component initilized');
+        console.log('Component initialized');
 
     });
 

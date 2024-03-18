@@ -5,9 +5,11 @@
 // import UseRefComponent from "./hook/UseRefComponent";
 // import Form from "./lifecycle/Form";
 // import ListKeyComponent from "./ListKeyComponent";
-import Forms from "./Forms";
+// import Forms from "./Forms";
+// import FormWithRef from "./FormWithRef";
+import StyleComponent from "./style/StyleComponent";
 
-function Practice(){
+function Practice() {
 
     // let [msg1, msg2] = useState(2);
 
@@ -26,20 +28,20 @@ function Practice(){
 
     // let conditionalRending = true;
 
-    return(
+    return (
 
         // <div onClickCapture={clickCapture}>
 
         //     {conditionalRending ? <h4>Double Click Button.</h4> : '' }
 
         //     <div>{msg1}</div>
-        
+
         //     <button onDoubleClickCapture={clickEvent}>Double Click Event</button>
 
         // </div>
 
         <>
-        
+
             {/* <ClassComponent/> */}
 
             {/* <FunctionHookComponent/> */}
@@ -50,7 +52,11 @@ function Practice(){
 
             {/* <ListKeyComponent/> */}
 
-            <Forms/>
+            {/* <Forms/> */}
+
+            {/* <FormWithRef/> */}
+
+            <StyleComponent/>
 
         </>
 

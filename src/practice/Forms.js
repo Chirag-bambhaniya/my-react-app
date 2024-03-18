@@ -6,13 +6,27 @@ export default function Forms() {
 
     let [dropdown, setDropdown] = useState('');
 
+    let [isValid , setValid] = useState (false);
+
+    const hadleSubmit = (event) => {
+
+        event.preventDefault();
+
+        if (name === '') {
+            alert('Please enter name');
+        }
+        else {
+            console.log('Form Submitted');
+        }
+
+    }
+
     let inputName = (e) => {
 
         setName(e.target.value)
     }
 
     return (
-
         <div>
 
             <form>
