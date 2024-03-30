@@ -5,11 +5,27 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 // import FunctionComponent from './practice/Function';
 // import ClassComponent from './practice/Class';
+// import Home from './practice/'
+import { BrowserRouter, HashRouter, Route, RouterProvider, createBrowserRouter, createRoutesFromElements } from 'react-router-dom';
+import Dashboard from './content/Dashboard';
+import StyleComponent from './practice/style/StyleComponent';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
+const router = createBrowserRouter(
+  createRoutesFromElements(
+    <Route path='/' element={<App />}>
+      <Route index element={<Dashboard />} />
+      <Route path='style' element={<StyleComponent />} />
+    </Route>
+  )
+)
+
 root.render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
     {/* <ClassComponent/>
     <FunctionComponent/> */}
   </React.StrictMode>

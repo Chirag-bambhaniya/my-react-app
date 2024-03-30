@@ -6,13 +6,13 @@ import './App.css';
 // import Practice from './practice/Practice';
 // import Practice1 from './practice/Practice1';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
-// import Sidebar from './layout/Sidebar';
-// import NavBar from './layout/NavBar';
+import Sidebar from './layout/Sidebar';
+import NavBar from './layout/NavBar';
 // import './content/Dashboard';
-// import './assets/css/admin.css';
-// import './assets/css/mdb.min.css';
-// import Dashboard from './content/Dashboard';
-import Calculator from './practice/Calculator';
+import './assets/css/admin.css';
+import './assets/css/mdb.min.css';
+import Dashboard from './content/Dashboard';
+// import Calculator from './practice/Calculator';
 // import './assets/js/admin.js';
 // import './assets/js/mdb.umd.min.js';
 
@@ -24,7 +24,7 @@ function App() {
 
     <>
 
-      {/* <header>
+      <header>
 
         <Sidebar/>
 
@@ -32,9 +32,9 @@ function App() {
 
       </header>
 
-      <Dashboard/> */}
+      <Dashboard/>
 
-      <Calculator/>
+      {/* <Calculator/> */}
 
       {/* <NavBar CompanyCode = {20} />
   

@@ -1,4 +1,11 @@
 import React from "react";
+import {
+    BrowserRouter as Router,
+    Routes,
+    Route,
+    NavLink as Link,
+} from "react-router-dom";
+import StyleComponent from '../practice/style/StyleComponent';
 // import PropTypes from 'prop-types' ;
 
 let Sidebar = () => {
@@ -10,12 +17,16 @@ let Sidebar = () => {
         <nav id="sidebarMenu" className="collapse d-lg-block sidebar collapse bg-white">
             <div className="position-sticky">
                 <div className="list-group list-group-flush mx-3 mt-4">
-                    <a href="#" className="list-group-item list-group-item-action py-2" data-mdb-ripple-init aria-current="true">
+                    <div>
+                        <Link to='/'>
                         <i className="fas fa-tachometer-alt fa-fw me-3"></i><span>Main dashboard</span>
-                    </a>
-                    <a href="#" className="list-group-item list-group-item-action py-2 active" data-mdb-ripple-init>
-                        <i className="fas fa-chart-area fa-fw me-3"></i><span>Website traffic </span>
-                    </a>
+                        </Link>
+                    </div>
+                    <div>
+                        <Link to="/style">
+                            <i className="fas fa-tachometer-alt fa-fw me-3"></i><span>Style</span>
+                        </Link>
+                    </div> 
                     {/* <a href="#" className="list-group-item list-group-item-action py-2" data-mdb-ripple-init><i
                         className="fas fa-lock fa-fw me-3"></i><span>Password</span></a>
                     <a href="#" className="list-group-item list-group-item-action py-2" data-mdb-ripple-init><i

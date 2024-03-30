@@ -5,7 +5,9 @@ export default function () {
         <main style={{marginTop: "58px"}}>
             <div class="container pt-4">
 
-                <section class="mb-4">
+                <h1>Dashboard</h1>
+
+                {/* <section class="mb-4">
                     <div class="card">
                         <div class="card-header py-3">
                             <h5 class="mb-0 text-center"><strong>Sales</strong></h5>
@@ -106,7 +108,7 @@ export default function () {
                             </div>
                         </div>
                     </div>
-                </section>
+                </section> */}
 
 
             </div>
