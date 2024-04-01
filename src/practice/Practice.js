@@ -8,6 +8,8 @@
 // import Forms from "./Forms";
 // import FormWithRef from "./FormWithRef";
 import StyleComponent from "./style/StyleComponent";
+import HttpRequestComponent from './http_requests/HttpRequestComponent';
+import PostRequestComponent from './http_requests/PostRequestComponent';
 
 function Practice() {
 
@@ -56,7 +58,11 @@ function Practice() {
 
             {/* <FormWithRef/> */}
 
-            <StyleComponent/>
+            {/* <StyleComponent/> */}
+
+            {/* <HttpRequestComponent/> */}
+
+            <PostRequestComponent/>
 
         </>
 

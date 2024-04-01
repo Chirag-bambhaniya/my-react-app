@@ -3,7 +3,7 @@ import './App.css';
 // import NavBar from './layout/NavBar';
 // import Footer from './layout/Footer';
 // import Sidebar  from './layout/Sidebar';
-// import Practice from './practice/Practice';
+import Practice from './practice/Practice';
 // import Practice1 from './practice/Practice1';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import Sidebar from './layout/Sidebar';
@@ -24,15 +24,15 @@ function App() {
 
     <>
 
-      <header>
+      {/* <header>
 
         <Sidebar/>
 
         <NavBar/>
 
-      </header>
+      </header> */}
 
-      <Dashboard/>
+      {/* <Dashboard/> */}
 
       {/* <Calculator/> */}
 
@@ -43,10 +43,11 @@ function App() {
 
     <Footer companyName='Google'/> */}
 
-      {/* <Practice /> */}
+      <Practice />
 
       {/* <Practice1/>  */}
 
+      
     </>
 
 
