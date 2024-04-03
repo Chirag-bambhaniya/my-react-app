@@ -60,9 +60,9 @@ function Practice() {
 
             {/* <StyleComponent/> */}
 
-            {/* <HttpRequestComponent/> */}
+            <HttpRequestComponent/>
 
-            <PostRequestComponent/>
+            {/* <PostRequestComponent/> */}
 
         </>
 

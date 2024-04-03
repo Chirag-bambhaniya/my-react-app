@@ -26,7 +26,17 @@ let Sidebar = () => {
                         <Link to="/style">
                             <i className="fas fa-tachometer-alt fa-fw me-3"></i><span>Style</span>
                         </Link>
-                    </div> 
+                    </div>
+                    <div>
+                        <Link to="/post">
+                            <i className="fas fa-tachometer-alt fa-fw me-3"></i><span>Post</span>
+                        </Link>
+                    </div>
+                    {/* <div>
+                        <Link to="/style">
+                            <i className="fas fa-tachometer-alt fa-fw me-3"></i><span>Style</span>
+                        </Link>
+                    </div>  */}
                     {/* <a href="#" className="list-group-item list-group-item-action py-2" data-mdb-ripple-init><i
                         className="fas fa-lock fa-fw me-3"></i><span>Password</span></a>
                     <a href="#" className="list-group-item list-group-item-action py-2" data-mdb-ripple-init><i

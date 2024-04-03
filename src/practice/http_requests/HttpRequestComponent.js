@@ -1,4 +1,5 @@
 import React, { useState, useEffect, Fragment } from 'react'
+import { Link } from 'react-router-dom';
 
 export default function HttpRequestComponent() {
 
@@ -23,13 +24,14 @@ export default function HttpRequestComponent() {
                 <img src={photo.url} alt={photo.title} width={100} />
             ))} */}
 
-            <table>
+            <table className='table table-success table-striped '>
                 <thead>
                     <tr>
                         <th>ID</th>
                         <th>User ID</th>
                         <th>Title</th>
                         <th>Cody</th>
+                        <th>See link</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -40,6 +42,11 @@ export default function HttpRequestComponent() {
                                 <td>{data.userId}</td>
                                 <td>{data.title}</td>
                                 <td>{data.body}</td>
+                                <td>
+                                    <Link to={`/post/${data.id}`}>
+                                        See Post
+                                    </Link>
+                                </td>
                             </tr>
                         </Fragment>
                     ))}

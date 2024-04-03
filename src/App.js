@@ -12,6 +12,7 @@ import NavBar from './layout/NavBar';
 import './assets/css/admin.css';
 import './assets/css/mdb.min.css';
 import Dashboard from './content/Dashboard';
+import Contain from './layout/Content'
 // import Calculator from './practice/Calculator';
 // import './assets/js/admin.js';
 // import './assets/js/mdb.umd.min.js';
@@ -24,15 +25,17 @@ function App() {
 
     <>
 
-      {/* <header>
+      <header>
 
         <Sidebar/>
 
         <NavBar/>
 
-      </header> */}
+      </header>
 
       {/* <Dashboard/> */}
+
+      <Contain/>
 
       {/* <Calculator/> */}
 
@@ -43,7 +46,7 @@ function App() {
 
     <Footer companyName='Google'/> */}
 
-      <Practice />
+      {/* <Practice /> */}
 
       {/* <Practice1/>  */}
 

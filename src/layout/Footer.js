@@ -1,8 +1,8 @@
 import React from "react";
 import PropTypes from 'prop-types';
 
-function Footer(props){
-    console.log(props);
+function Footer(){
+    // console.log(props);
     return (
 
     <h1>This Is Footer. Company Name Is {props.companyName}  </h1>

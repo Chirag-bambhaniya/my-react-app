@@ -1,7 +1,7 @@
 import React from "react";
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 
-function NavBar(props) {
+function NavBar() {
 
     return (
 
@@ -121,12 +121,12 @@ function NavBar(props) {
 
 }
 
-NavBar.defaultProps = {
-    CompanyCode: 'Google'
-}
+// NavBar.defaultProps = {
+//     CompanyCode: 'Google'
+// }
 
-NavBar.propTypes = {
-    CompanyCode: PropTypes.number
-}
+// NavBar.propTypes = {
+//     CompanyCode: PropTypes.number
+// }
 
 export default NavBar;
