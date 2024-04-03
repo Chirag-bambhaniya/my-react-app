@@ -9,8 +9,26 @@ import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, HashRouter, Route, RouterProvider, createBrowserRouter, createRoutesFromElements } from 'react-router-dom';
 import Dashboard from './content/Dashboard';
 import StyleComponent from './practice/style/StyleComponent';
+import Home from './practice/Router/Home';
+import Route1 from './practice/Router/Route1';
+import Route2 from './practice/Router/Route2';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
+// const router = createBrowserRouter([
+//   {
+//     path: '/',
+//     element: <Home/>
+//   },
+//   {
+//     path: '/route-1',
+//     element: <Route1/>
+//   },
+//   {
+//     path: '/route-2',
+//     element: <Route2/>
+//   }
+// ])
 
 // const router = createBrowserRouter(
 //   createRoutesFromElements(

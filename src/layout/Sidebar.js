@@ -28,6 +28,21 @@ let Sidebar = () => {
                         </Link>
                     </div>
                     <div>
+                        <Link to="/users">
+                            <i className="fas fa-tachometer-alt fa-fw me-3"></i><span>User</span>
+                        </Link>
+                    </div>
+                    <div>
+                        <Link to="/users/1">
+                            <i className="fas fa-tachometer-alt fa-fw me-3"></i><span>User Details</span>
+                        </Link>
+                    </div>
+                    <div>
+                        <Link to="/form-validation">
+                            <i className="fas fa-tachometer-alt fa-fw me-3"></i><span>Form Validation</span>
+                        </Link>
+                    </div>
+                    <div>
                         <Link to="/post">
                             <i className="fas fa-tachometer-alt fa-fw me-3"></i><span>Post</span>
                         </Link>
