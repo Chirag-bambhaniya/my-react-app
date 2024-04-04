@@ -32,6 +32,7 @@ export default function HttpRequestComponent() {
                         <th>Title</th>
                         <th>Cody</th>
                         <th>See link</th>
+                        <th>See Comment</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -45,6 +46,11 @@ export default function HttpRequestComponent() {
                                 <td>
                                     <Link to={`/post/${data.id}`}>
                                         See Post
+                                    </Link>
+                                </td>
+                                <td>
+                                    <Link to={`/post/${data.id}/comments`}>
+                                        See Comment
                                     </Link>
                                 </td>
                             </tr>
