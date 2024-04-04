@@ -1,11 +1,21 @@
 import React from 'react'
+import { useDispatch, useSelector } from 'react-redux'
+import { decrement, increment, incrementByAmount, multiplyByAmount } from '../redux/CounterSlice'
 // import Sidebar from '../../layouts/Sidebar'
 // import Navbar from '../../layouts/Navbar'
 
 export default function User() {
-    console.log('user page');
+    // console.log('user page');
+    const count = useSelector ((state) => state.counter.value)
+    const dispatch = useDispatch()
     return (
         <>
+
+            <h1>Redux Counter {count} </h1>
+            <button className='btn' onClick={() => dispatch(increment())}>+</button>
+            <button className='btn' onClick={() => dispatch(decrement())}>-</button>
+            <button className='btn' onClick={() => dispatch(incrementByAmount(5))}>increment By Amount</button>
+            <button className='btn' onClick={() => dispatch(multiplyByAmount(5))}>Multiply By Amount</button>
             {/* <header>
                 <Sidebar />
                 <Navbar />

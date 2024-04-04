@@ -12,6 +12,8 @@ import StyleComponent from './practice/style/StyleComponent';
 import Home from './practice/Router/Home';
 import Route1 from './practice/Router/Route1';
 import Route2 from './practice/Router/Route2';
+import store from './practice/redux/store';
+import { Provider } from 'react-redux';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -42,7 +44,9 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
-      <App />
+      <Provider store={store}>
+        <App />
+      </Provider>
     </BrowserRouter>
     {/* <ClassComponent/>
     <FunctionComponent/> */}

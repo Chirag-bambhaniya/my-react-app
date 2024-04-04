@@ -1,7 +1,10 @@
 import React from "react";
+import { useSelector } from "react-redux";
 // import PropTypes from 'prop-types';
 
 function NavBar() {
+
+    const count = useSelector ((state) => state.counter.value )
 
     return (
 
@@ -20,6 +23,7 @@ function NavBar() {
                 <a className="navbar-brand" href="#">
                     <img src="https://mdbootstrap.com/img/logo/mdb-transaprent-noshadows.png" height="25" alt="" loading="lazy" />
                 </a>
+                <h1>{count}</h1>
                 {/* <!-- Search form --> */}
                 <form className="d-none d-md-flex input-group w-auto my-auto">
                     {/* <input autocomplete="off" type="search" className="form-control rounded"
