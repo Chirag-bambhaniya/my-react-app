@@ -9,6 +9,7 @@ import HttpRequestComponent from '../practice/http_requests/HttpRequestComponent
 import Post from '../practice/http_requests/Post'
 import StyleComponent from '../practice/style/StyleComponent'
 import Commit from '../practice/http_requests/Commit';
+import Name from '../practice/redux/Name';
 
 export default function Content() {
     return (
@@ -25,6 +26,7 @@ export default function Content() {
                     <Route path="users/:id" element={<UserDetails />} />
                     <Route path="/form-validation" element={<FormValidationDemo />} />
                     <Route path="/post/:id/comments" element={<Commit />} />
+                    <Route path="/form" element={<Name />} />
 
                 </Routes>
             </div>

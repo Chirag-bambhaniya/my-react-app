@@ -13,9 +13,13 @@ export default function User() {
 
             <h1>Redux Counter {count} </h1>
             <button className='btn' onClick={() => dispatch(increment())}>+</button>
+
             <button className='btn' onClick={() => dispatch(decrement())}>-</button>
+
             <button className='btn' onClick={() => dispatch(incrementByAmount(5))}>increment By Amount</button>
+            
             <button className='btn' onClick={() => dispatch(multiplyByAmount(5))}>Multiply By Amount</button>
+            
             {/* <header>
                 <Sidebar />
                 <Navbar />
