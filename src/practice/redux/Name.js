@@ -10,19 +10,18 @@ export default function Name() {
     const dispatch = useDispatch();
     // const navigate = useNavigate();
 
-    let [userName, setUserName] = useState({firstName : ''});
+    let [userName, setUserName] = useState('');
 
     const handleSubmitForm = (e) => {
         e.preventDefault();
-        console.log(name)
-        // dispatch(saveUser('Chirag @'))
+        dispatch(saveUser(userName))
     };
 
-    // const handleChangeName = (firstName) => {
+    const handleChangeName = (firstName) => {
         // setUserName(userName = firstName);
-        // console.log(firstName.value)
+        setUserName(firstName.target.value)
         
-    // };
+    };
     // console.log(name)
     return (
         <>
@@ -30,9 +29,9 @@ export default function Name() {
 
             <form onSubmit={handleSubmitForm}>
 
-                <input type="text" name='firstName'  placeholder='Enter Your Name' /> <br /> <br />
+                <input type="text" name='firstName' onChange={handleChangeName}  placeholder='Enter Your Name' /> <br /> <br />
 
-                <button onClick={() => dispatch(saveUser('Chirag @'))}>Submit</button>
+                <button>Submit</button>
 
             </form>
 

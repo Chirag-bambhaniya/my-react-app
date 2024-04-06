@@ -10,10 +10,10 @@ export const StringSlice = createSlice({
     reducers: {
         //    saveUser: (state, action) =>  state.value =action.payload
         saveUser: (state, action) => {
-            console.log('state' + state.value)
-            console.log('action' +  action.payload)
+            console.log('state ' + state.value)
+            console.log('action ' +  action.payload)
             state.value = action.payload;
-            console.log('state' + state.value)
+            console.log('state ' + state.value)
         }
     }
 })
