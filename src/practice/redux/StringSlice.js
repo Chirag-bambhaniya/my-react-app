@@ -2,7 +2,7 @@ import { createSlice } from "@reduxjs/toolkit";
 // import { propTypes } from "react-bootstrap/esm/Image";
 
 export const StringSlice = createSlice({
-    name: 'user',
+    name: 'users',
     initialState: {
         value: 'Chirag'
     },

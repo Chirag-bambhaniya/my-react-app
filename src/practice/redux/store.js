@@ -8,7 +8,7 @@ import personSlice from "./personSlice";
 export default configureStore({
     reducer: {
         counter: CounterReducer,
-        user: StringSlice,
+        users: StringSlice,
         user: personSlice
     },
     middleware: (getDefaultMiddleware) => [

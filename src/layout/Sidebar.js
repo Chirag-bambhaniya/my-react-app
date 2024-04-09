@@ -52,6 +52,11 @@ let Sidebar = () => {
                             <i className="fas fa-tachometer-alt fa-fw me-3"></i><span>Form Only Name</span>
                         </Link>
                     </div>
+                    <div>
+                        <Link to="/todolist">
+                            <i className="fas fa-tachometer-alt fa-fw me-3"></i><span>Todo List</span>
+                        </Link>
+                    </div>
                     {/* <div>
                         <Link to="/style">
                             <i className="fas fa-tachometer-alt fa-fw me-3"></i><span>Style</span>

@@ -5,7 +5,7 @@ import { useSelector } from "react-redux";
 
 export default function StyleComponent() {
 
-    const user = useSelector((state) => state.user.value);
+    const user = useSelector((state) => state.users.value);
 
     return (
 

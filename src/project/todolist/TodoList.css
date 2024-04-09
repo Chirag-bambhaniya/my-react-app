@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main {
+    min-height: 89.8vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(rgb(68, 190, 208), rgb(11, 102, 163));
+    background-repeat: no-repeat;
+
+}
+.app {
+    background-color: white;
+    padding: 30px;
+}
+.input {
+    height: 45px;
+}
+.main .app ul{
+    padding: 0;
+}
+.main .app ul li{
+    list-style: none;
+    display: block;
+    width: 100%;
+    position: relative;
+    font-size: 20px;  
+}
+.main .app ul li button{
+    position: absolute;
+    padding: 1px;
+    right: 0px;
+    width: 25%;  
+    height: 48px;  
+    top: 0%;
+}

@@ -6,7 +6,7 @@ import { useNavigate } from 'react-router-dom';
 // import saveUser from './StringSlice';
 
 export default function Name() {
-    const name = useSelector((state) => state.user.value)
+    const name = useSelector((state) => state.users.value)
     const dispatch = useDispatch();
     // const navigate = useNavigate();
 
